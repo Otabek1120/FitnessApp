@@ -1,4 +1,4 @@
-# 1. HOW TO RUN THE PROGRAM
+## 1. HOW TO RUN THE PROGRAM
     a. After loggin into your Oracle account, run the following commands to add the tables
         @add_tables.sql
         @add_records.sql
@@ -10,14 +10,14 @@
 
 
 
-# 2. THE WORLOAD DISTRIBUTION AMONG TEAM MEMBERS:
+## 2. THE WORLOAD DISTRIBUTION AMONG TEAM MEMBERS:
 TEAM MEMBERS:
-    Ali Elbekov
-    Aman Bhaia
-    Eduardo Esau Ibarra
-    Otabek Abduraimov
+    - Ali Elbekov
+    - Aman Bhaia
+    - Eduardo Esau Ibarra
+    - Otabek Abduraimov
 
-## CORE FUNCTIONALITIES of THE PROGRAM
+### CORE FUNCTIONALITIES of THE PROGRAM
     Add a member                                            
     Delete a member                                         
     Add a course                                            
