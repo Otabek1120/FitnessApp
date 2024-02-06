@@ -10,11 +10,11 @@
 
 
 
-## 2. TEAM MEMBERS: <br>
-    Ali Elbekov <br>
-    Aman Bhaia <br>
-    Eduardo Esau Ibarra <br>
-    Otabek Abduraimov <br>
+## 2. TEAM MEMBERS: 
+    Ali Elbekov 
+    Aman Bhaia 
+    Eduardo Esau Ibarra 
+    Otabek Abduraimov 
 
 ## 3. CORE FUNCTIONALITIES of THE PROGRAM
     Add a member                                            
