@@ -1,0 +1,83 @@
+Relations:
+
+Trainer:
+    id                  INT     PK
+    name                STR
+    phone               STR
+
+Levels:
+    name                STR     PK
+    discount            INT
+    minSpendingAmount   FLT
+
+Member:
+    id                  INT     PK
+    name                STR
+    phone               STR
+    membershipLevel     STR     FK
+    totalSpending       FLT
+
+
+Course:
+    name                STR     PK
+    trainerID           INT     FK
+    weeklyClassTime     STR
+    startDate           DATE
+    endDate             DATE
+    startTime           INT
+    endTime             INT
+    currentParticipants INT
+    maxParticipants     INT
+
+Package:
+    name                STR     PK
+    price               FLT
+
+PackageCourse:
+    packageName         STR     PK, FK
+    courseName          STR     PK, FK
+
+PackageMembers:
+    packageName         STR     PK, FK
+    memberId            INT     PK, FK
+
+Equipment:
+    name                STR     PK
+    available           INT
+    quantity            INT
+
+Borrow:
+    memberId            INT     PK, FK
+    equipmentName       STR     PK, FK
+    checkoutTime        TIMEST  PK
+    returnTime          TIMEST
+
+Transaction:
+    id                  INT     PK
+    memberID            INT     FK
+    amount              FLT
+    transactionDate     DATE
+    transactionStatus   STR
+    transactionType     STR
+
+
+FDs:
+
+Trainer:
+    {id} -> {name, phone}
+Levels:
+    {name} -> {discount, minSpendingAmount}
+Member:
+    {id} -> {name, phone, membershipLevel, totalSpending}
+Course:
+    {name} -> {trainerID, weeklyClassTime, startDate, endDate, startTime, endTime, currentParticipants, maxParticipants}
+Package:
+    {name} -> {price}
+PackageCourse:
+PackageMembers:
+Equipment:
+    {name} -> {available, quantity}
+Borrow:
+    {memberId, equipmentName, checkoutTime} -> {returnTime}
+Transaction:
+    {id} -> {memberID, amount, transactionDate, transactionStatus, transactionType}
