@@ -10,14 +10,13 @@
 
 
 
-## 2. THE WORLOAD DISTRIBUTION AMONG TEAM MEMBERS:
-TEAM MEMBERS: <br>
+## 2. TEAM MEMBERS: <br>
     Ali Elbekov <br>
     Aman Bhaia <br>
     Eduardo Esau Ibarra <br>
     Otabek Abduraimov <br>
 
-### CORE FUNCTIONALITIES of THE PROGRAM
+## 3. CORE FUNCTIONALITIES of THE PROGRAM
     Add a member                                            
     Delete a member                                         
     Add a course                                            
