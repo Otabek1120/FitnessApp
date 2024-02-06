@@ -1,4 +1,10 @@
-## 1. HOW TO RUN THE PROGRAM
+## 1. DESCRIPTION
+    Database Design project aimed to build a database-driven information management system for a 
+    fictional fitness center named GYM 460. 
+    The goal is to design the underlying database and define application functionalities, 
+    implementing this application using Oracle within a text-based JDBC program.
+    
+## 2. HOW TO RUN THE PROGRAM
     a. After loggin into your Oracle account, run the following commands to add the tables
         @add_tables.sql
         @add_records.sql
